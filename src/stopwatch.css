@@ -105,3 +105,71 @@ h1{
         padding-left: 20px;
     }
 }
+@media all and (orientation:landscape) and (max-width:700px){
+    #container{
+        row-gap: .5rem;
+        width: fit-content;
+        top: 10%;
+        left: 50;
+        background-color: white;
+    }
+    .lapDisplay{
+        width: fit-content;
+        top: 55%;
+        left: 50;
+        font-size: 1rem;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+    }
+}
+@media all and (orientation:landscape)and (min-width:700px) and (max-width:1000px){
+    #container{
+        row-gap: .5rem;
+        width: fit-content;
+        top: 10%;
+        left: 50;
+        background-color: white;
+    }
+    .lapDisplay{
+        width: fit-content;
+        top: 60%;
+        left: 50;
+        font-size: 1rem;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        padding-left:20px ;
+    }
+    .start{
+        margin-left: 15px;
+    }
+    .lap{
+        margin-right: 15px;
+    }
+}
+@media all and (orientation:landscape)and (min-hieght:1000px) and (min-width:1000px) {
+    #container{
+        row-gap: .5rem;
+        width: fit-content;
+        top: 10%;
+        left: 50;
+        background-color: white;
+    }
+    .lapDisplay{
+        width: fit-content;
+        top: 60%;
+        left: 50;
+        font-size: 1rem;
+        border-radius: 5px;
+        background-color: blue;
+        color: white;
+        padding-left:20px ;
+    }
+    .start{
+        margin-left: 15px;
+    }
+    .lap{
+        margin-right: 15px;
+    }
+}
